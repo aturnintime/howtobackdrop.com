@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #0073bd;
+  color: #eee;
 }
 
 a:focus,
@@ -146,9 +146,9 @@ fieldset .fieldset-legend {
  * site name word size
  */
 .l-header {
-  background: #fff;
-  color: #000;
-  border-bottom: solid 2px #222;
+  background: #222;
+  color: #eee;
+  border-bottom: solid 2px #ccc;
 }
 
 .l-header-inner {
@@ -163,6 +163,7 @@ fieldset .fieldset-legend {
 }
 
 .l-header a {
+  color: #eee;
 }
 
 .header-menu a:hover,
@@ -193,7 +194,9 @@ fieldset .fieldset-legend {
 }
 
 .header-site-name-wrapper {
-  font-size: 1.25rem;
+}
+.header-site-name-wrapper a {
+  font-size: 2.4rem;
 }
 
 @media (min-width: 34em) {
@@ -298,6 +301,10 @@ fieldset .fieldset-legend {
   }
 }
 
+.l-wrapper {
+  background: #ddd;
+}
+
 /**
  * Responsive menu styles
  */
@@ -398,7 +405,7 @@ fieldset .fieldset-legend {
   line-height: 3;
   padding: 0.5em 0 1em;
   margin: 5em 0 0;
-  background-color: #fffeff;
+  background-color: #010;
   color: #000100;
 }
 
@@ -1216,8 +1223,20 @@ div.error:before {
   /* background-image: linear-gradient(transparent, transparent), url(../../../misc/message-error.svg); */
 }
 
-/* Color classes for UI */
-
-
-
-
+.row {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.hp-block {
+  background-color: #fff;
+  color: #111;
+  border-radius: 10px;
+  border: 2px solid 111;
+  min-height: 300px;
+}
+.hp-block-title {
+  margin-bottom: 4px;
+  font-size: 1.4em;
+  font-weight: 499;
+  text-align: center;
+}
