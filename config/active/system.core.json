@@ -63,11 +63,11 @@
     "site_favicon_path": "core/misc/favicon.ico",
     "site_favicon_mimetype": "image/vnd.microsoft.icon",
     "site_frontpage": "home",
-    "site_name": "Backdrop",
+    "site_name": "How to Backdrop",
     "site_logo_theme": 0,
     "site_logo_path": "",
-    "site_mail": "",
-    "site_slogan": "",
+    "site_mail": "no-reply@example.com",
+    "site_slogan": "Site builder and developer how-tos",
     "theme_default": "basis",
     "theme_debug": 0,
     "user_admin_role": "administrator",
@@ -97,5 +97,11 @@
         5,
         6
     ],
-    "x_frame_options": "SAMEORIGIN"
+    "x_frame_options": "SAMEORIGIN",
+    "site_logo_attributes": {
+        "width": "",
+        "height": ""
+    },
+    "site_logo_upload": "",
+    "site_favicon_upload": ""
 }
