@@ -1,0 +1,13 @@
+name: htb
+recipe: backdrop
+config:
+  webroot: web
+  via: nginx
+  database: mariadb:10.3
+  php: 7.3
+  backdrush: 1.1.0
+
+tooling:
+  drush:
+    service: appserver
+    cmd: drush --root=/app/web --uri=https://htb.lndo.site
