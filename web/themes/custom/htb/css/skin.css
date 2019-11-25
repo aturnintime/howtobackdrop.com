@@ -1155,74 +1155,7 @@ ul.secondary li a:active {
   font-style: normal;
 }
 
-/* Color Module: Don't touch */
-
-/**
- * Status messages
- * Uncomment background-image styles to override, URL will need to be
- * updated to work in a sub-theme.
- */
-
-/* Neutral or Good status message colors */
-.messages.status {
-  color: #234600;
-  background-color: #e9eebc;
-}
-div.messages.status:before {
-  /* background-image: url(../../../misc/message-32-ok.png); */
-  background-color: #cfde56;
-}
-
-/* Warning status message colors */
-.messages.warning {
-  color: #555;
-  background-color: #faf5c9;
-}
-div.messages.warning:before {
-  /* background-image: url(../../../misc/message-32-warning.png); */
-  background-color: #fce400;
-}
-
-/* Error status message colors */
-.messages.error {
-  color: #f00;
-  background-color: #f9edec;
-}
-div.messages.error:before {
-  /* background-image: url(../../../misc/message-32-error.png); */
-  background-color: #f00;
-}
-
-/* Info status message colors */
-.messages.info {
-  color: #004570;
-  background-color: #bdf;
-}
-div.messages.info:before {
-  /* background-image: url(../../../misc/message-32-info.png); */
-  background-color: #0074bd;
-}
-
-/**
- * SVG overrides for status messages
- * Using linear-gradient so the style only applies to browsers that can render
- * SVGs.
- */
-div.status:before {
-  /* background-image: -webkit-linear-gradient(transparent, transparent), url(../../../misc/message-ok.svg); */
-  /* background-image: linear-gradient(transparent, transparent), url(../../../misc/message-ok.svg); */
-}
-
-div.warning:before {
-  /* background-image: -webkit-linear-gradient(transparent, transparent), url(../../../misc/message-warning.svg); */
-  /* background-image: linear-gradient(transparent, transparent), url(../../../misc/message-warning.svg); */
-}
-
-div.error:before {
-  /* background-image: -webkit-linear-gradient(transparent, transparent), url(../../../misc/message-error.svg); */
-  /* background-image: linear-gradient(transparent, transparent), url(../../../misc/message-error.svg); */
-}
-
+/* Homepage things */
 .row {
   margin-top: 8px;
   margin-bottom: 8px;
@@ -1240,3 +1173,4 @@ div.error:before {
   font-weight: 499;
   text-align: center;
 }
+/* Homepage things end */

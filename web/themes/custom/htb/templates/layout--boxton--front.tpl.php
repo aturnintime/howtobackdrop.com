@@ -38,32 +38,32 @@
   <div class="l-wrapper">
     <div class="container hp-content">
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-10">
           <div class="container">
             <div class="write-up">
               Jumpstart your Backdrop site builder and/or dev carreer with easy to follow videos, courses, and trainings.  
             </div>
-            <div class="row">
+            <div class="row justify-content-between">
               <div
                 class="col-md-5 hp-block hp-sb-gs">
                 <div class="hp-block-title">
                   Site Builder Getting Started
                 </div>
                 <div class="hp-block-content">
-                  Pathway to site building carreer.
+                  Jumpstart or update your site building skillset!
                 </div>
               </div>
               <div
-                class="col-md-5 hp-block hp-dev-gs col-md-offset-1">
+                class="col-md-5 hp-block hp-dev-gs">
                 <div class="hp-block-title">
                   Developer Getting Started
                 </div>
                 <div class="hp-block-content">
-
+                  Get up to speed on development tools, techniques, and jumpstart your dev skills!
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-between">
               <div class="col-md-5 hp-block hp-sb-adv">
                 <div class="hp-block-title">
                   Site Builder Advanced
@@ -72,7 +72,7 @@
 
                 </div>
               </div>
-              <div class="col-md-5 hp-block hp-dev-adv col-md-offset-1">
+              <div class="col-md-5 hp-block hp-dev-adv">
                 <div class="hp-block-title">
                   Developer Advanced
                 </div>
@@ -83,7 +83,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2">
           ads.
         </div>
       </div>
