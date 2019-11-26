@@ -41,7 +41,7 @@
         <div class="col-md-10">
           <div class="container">
             <div class="write-up">
-              Jumpstart your Backdrop site builder and/or dev carreer with easy to follow videos, courses, and trainings.  
+              Jumpstart your Backdrop site builder and/or dev skills with easy to follow videos, courses, and trainings.  
             </div>
             <div class="row justify-content-between">
               <div
