@@ -50,6 +50,10 @@
     <script
       src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js">
     </script>
+    <script
+      data-ad-client="ca-pub-2171521293488166"
+      async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+    </script>
   </head>
   <body class="<?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($body_attributes); ?>>
     <?php print $page; ?>
