@@ -40,31 +40,27 @@
       <div class="hp-big-container">
         <div class="hp-all-the-things">
           <div class="hp-lil-container">
+            <h1 class="hp-title">
+              How to Backdrop ~ Site building and development for Backdrop CMS!
+            </h1>
             <div class="write-up">
               🚀 Jumpstart your Backdrop site builder and/or dev skills with easy to follow videos, courses, and trainings.🚀
             </div>
             <div class="hp-course-row">
               <div
                 class="hp-course hp-block hp-sb-gs">
-                <div class="hp-block-title">
+                <h2 class="hp-block-title">
                   Site Builder Getting Started
-                </div>
+                </h2>
                 <div class="hp-block-content">
                   Jumpstart or update your site building skillset!
                 </div>
               </div>
               <div
                 class="hp-course hp-block hp-dev-gs">
-                <div class="hp-block-title">
+                <h2 class="hp-block-title">
                   Developer Getting Started
-                </div>
-                <pre>
-                  <code class="php hljs">
-                    foreach ($fields as $field) {
-                      print $field->name;
-                    }
-                  </code>
-                </pre>
+                </h2>
                 <div class="hp-block-content">
                   Get up to speed on development tools, techniques, and jumpstart your dev skills!
                 </div>
@@ -72,17 +68,17 @@
             </div>
             <div class="hp-course-row">
               <div class="hp-course hp-block hp-sb-adv">
-                <div class="hp-block-title">
+                <h2 class="hp-block-title">
                   Site Builder Advanced
-                </div>
+                </h2>
                 <div class="hp-block-content">
 
                 </div>
               </div>
               <div class="hp-course hp-block hp-dev-adv">
-                <div class="hp-block-title">
+                <h2 class="hp-block-title">
                   Developer Advanced
-                </div>
+                </h2>
                 <div class="hp-block-content">
 
                 </div>

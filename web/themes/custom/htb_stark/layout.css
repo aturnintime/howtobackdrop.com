@@ -64,13 +64,14 @@ table {
   font-weight: 504;
   font-size: 1.8rem;
 }
+/** menu **/
 ul.menu,
 ul.menu-toggle-state:not(:checked) ~ .menu {
   display: flex !important;
   flex-wrap: wrap;
 }
 ul.menu li {
-  margin: 0 1rem 0.4rem 1rem !important;
+  margin: 0 1rem 0rem 1rem !important;
 }
 .menu li.leaf {
   list-style-image: none;
@@ -80,14 +81,20 @@ ul.menu li a {
   color: #eee;
   font-size: 1.2rem;
   text-decoration: none;
+  padding: 6px;
 }
 ul.menu li a.active {
   background: #eee;
-  padding: 6px 6px 23px 6px;
+  color: #222;
+  padding: 6px;
 }
 ul.menu li a:hover {
+  background: #ddd;
+  color: #222;
+  padding: 6px;
   text-decoration: underline;
 }
+/** menu end **/
 .l-header {
   color: #eee;
   background: #474744;
@@ -98,12 +105,15 @@ ul.menu li a:hover {
 }
 /** header things end **/
 /* Homepage things */
+.hp-title {
+  font-size: 1.6rem;
+}
 .write-up {
   margin: 2rem 1rem 3rem 1rem;
   background: #fff;
   color: #111;
   border-radius: 10px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 
 }
 .hp-big-container {
@@ -118,6 +128,7 @@ ul.menu li a:hover {
 .hp-course-row {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 .hp-lil-container {
   margin-left: 2rem;
@@ -129,19 +140,21 @@ ul.menu li a:hover {
   color: #111;
   border-radius: 10px;
   border: 2px solid 111;
-  min-height: 300px;
+  min-height: 400px;
   max-width: 548px;
   box-shadow: 0 5px 15px 0 #666;
 }
 .hp-block-title {
+  margin-top: 0;
   margin-bottom: 4px;
   padding: 1rem;
   font-size: 1.4em;
   font-weight: 499;
-  background: #b7ceec; 
+  background: #808088;
+  color: #fff;
   text-align: center;
-  border-bottom: 2px #000 solid;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .hp-block-content {
   padding: 2rem;
