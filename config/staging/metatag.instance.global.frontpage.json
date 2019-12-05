@@ -1,7 +1,7 @@
 {
     "_config_name": "metatag.instance.global.frontpage",
     "module": "metatag",
-    "storage": "default",
+    "storage": "overridden",
     "name": "global.frontpage",
     "instance": "global:frontpage",
     "label": "Global: Home page",
@@ -10,6 +10,9 @@
     "config": {
         "title": {
             "value": "[site:name] | [current-page:pager]"
+        },
+        "description": {
+            "value": "HowToBackdrop.com servers tutorials, how-tos, and courses on Backdrop CMS for Site Builders and Developers."
         },
         "canonical": {
             "value": "[site:url]"
