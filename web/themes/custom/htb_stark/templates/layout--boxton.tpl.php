@@ -87,7 +87,10 @@
           </div>
         </div>
         <div class="col-md-2">
-          ads.
+          <?php
+            $cta = backdrop_get_form('htb_cta_form');
+            print render($cta);
+          ?>
         </div>
       </div>
     </div>
