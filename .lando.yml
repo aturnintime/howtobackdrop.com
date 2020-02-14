@@ -5,9 +5,21 @@ config:
   via: nginx
   database: mariadb:10.3
   php: 7.3
-  backdrush: 1.1.0
+  backdrush: 1.x-1.x
+
+services:
+  node:
+    type: node:10
+    run_as_me:
+      - yarn add lighthouse
 
 tooling:
   drush:
     service: appserver
     cmd: drush --root=/app/web --uri=https://htb.lndo.site
+  yarn:
+    service: node
+    cmd: yarn
+  lighthouse:
+    service: node
+    cmd: /app/node_modules/.bin/lighthouse
