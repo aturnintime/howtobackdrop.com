@@ -1,0 +1,45 @@
+{
+    "_config_name": "field.instance.node.vid.field_vid",
+    "field_name": "field_vid",
+    "entity_type": "node",
+    "bundle": "vid",
+    "label": "vid",
+    "widget": {
+        "weight": "1",
+        "type": "video_embed_field_video",
+        "module": "video_embed_field",
+        "active": 0,
+        "settings": []
+    },
+    "description": "",
+    "required": 0,
+    "deleted": 0,
+    "default_value": [
+        {
+            "video_url": ""
+        }
+    ],
+    "default_value_function": null,
+    "settings": {
+        "allowed_providers": {
+            "youtube": "youtube",
+            "vimeo": 0
+        },
+        "description_field": 0,
+        "description_length": "128",
+        "user_register_form": false
+    },
+    "display": {
+        "default": {
+            "label": "hidden",
+            "type": "video_embed_field",
+            "settings": {
+                "video_style": "normal",
+                "description": 1,
+                "description_position": "bottom"
+            },
+            "module": "video_embed_field",
+            "weight": 2
+        }
+    }
+}

@@ -115,6 +115,12 @@
         "use PHP for tracking visibility",
         "administer xmlsitemap",
         "administer meta tags",
-        "edit meta tags"
+        "edit meta tags",
+        "create vid content",
+        "edit own vid content",
+        "edit any vid content",
+        "delete own vid content",
+        "delete any vid content",
+        "administer video styles"
     ]
 }
