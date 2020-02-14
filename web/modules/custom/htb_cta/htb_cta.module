@@ -1,0 +1,67 @@
+<?php
+/**
+ * @file
+ * Add CTA request vids form.
+ */
+
+/**
+ * Hompage CTA form.
+ */
+function htb_cta_form($form, $form_state) {
+  $form = array();
+  $form['name'] = array(
+    '#type' => 'textfield',
+    '#size' => 22,
+    '#title' => 'Name',
+  );
+  $form['about'] = array(
+    '#type' => 'textarea',
+    '#title' => 'Request a Video/Series',
+    '#default_value' =>
+      t(
+        'Tell us about a video or video series you\'d like to see recorded.'
+      ),
+  );
+  $form['timeline'] = array(
+    '#type' => 'hidden',
+    '#value' => 'geoff is the best.',
+  );
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Submit'),
+  );
+  honeypot_add_form_protection(
+    $form,
+    $form_state,
+    array('honeypot', 'time_restriction')
+  );
+
+  return $form;
+}
+
+/**
+ * CTA form validation.
+ */
+function htb_cta_form_validate($form, &$form_state) {
+  $geoff = $form_state['values']['timeline'];
+  if ($geoff !== 'geoff is the best.') {
+    form_set_error('nope', 'No thank you.');
+  }
+}
+
+/**
+ * CTA form submit.
+ */
+function htb_cta_form_submit($form, &$form_state) {
+  $values = $form_state['values'];
+  $node = new Node();
+  $node->type = 'contacts';
+  $node->status = 0;
+  $node->uid = 1;
+  $node->title = check_plain($values['email']);
+  $node->field_budget[LANGUAGE_NONE][0]['value'] = check_plain($values['budget']);
+  $node->body[LANGUAGE_NONE][0]['value'] = check_plain($values['about']);
+  $node->save();
+
+  $form_state['redirect'] = 'thanks';
+}
