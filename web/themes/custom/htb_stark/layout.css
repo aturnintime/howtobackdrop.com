@@ -160,6 +160,20 @@ ul.menu li a:hover {
   padding: 2rem;
 }
 /* Homepage things end */
+
+/* vid pages */
+.l-page-title {
+  text-align: center;
+}
+.field-name-field-vid {
+  text-align: center;
+}
+.field-name-field-vid-tags .field-items .field-item {
+  display: inline-block;
+  margin: 9px;
+}
+/* vid pages end */
+
 /* footer things */
 .l-footer {
   padding: 3rem;
