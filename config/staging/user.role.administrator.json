@@ -121,6 +121,8 @@
         "edit any vid content",
         "delete own vid content",
         "delete any vid content",
-        "administer video styles"
+        "administer video styles",
+        "administer honeypot",
+        "bypass honeypot protection"
     ]
 }
