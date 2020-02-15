@@ -1,0 +1,11 @@
+{
+    "_config_name": "book.settings",
+    "book_allowed_types": {
+        "book": "book",
+        "vid": "vid",
+        "page": 0,
+        "post": 0,
+        "vid_requests": 0
+    },
+    "book_child_type": "vid"
+}
