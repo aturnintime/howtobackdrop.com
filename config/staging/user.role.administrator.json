@@ -123,6 +123,11 @@
         "delete any vid content",
         "administer video styles",
         "administer honeypot",
-        "bypass honeypot protection"
+        "bypass honeypot protection",
+        "create vid_requests content",
+        "edit own vid_requests content",
+        "edit any vid_requests content",
+        "delete own vid_requests content",
+        "delete any vid_requests content"
     ]
 }

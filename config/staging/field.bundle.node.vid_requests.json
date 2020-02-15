@@ -1,0 +1,17 @@
+{
+    "_config_name": "field.bundle.node.vid_requests",
+    "bundle": "vid_requests",
+    "entity_type": "node",
+    "view_modes": [],
+    "extra_fields": {
+        "form": {
+            "metatags": {
+                "weight": "40"
+            },
+            "title": {
+                "weight": "-5"
+            }
+        },
+        "display": []
+    }
+}
