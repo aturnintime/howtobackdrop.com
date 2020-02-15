@@ -83,6 +83,9 @@ ul.menu li a {
   text-decoration: none;
   padding: 6px;
 }
+.book-navigation ul.menu li a {
+  color: blue;
+}
 ul.menu li a.active {
   background: #eee;
   color: #222;
