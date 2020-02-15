@@ -13,6 +13,7 @@ function htb_cta_form($form, $form_state) {
     '#type' => 'textfield',
     '#size' => 22,
     '#title' => 'Name',
+    '#required' => TRUE,
   );
   $form['about'] = array(
     '#type' => 'textarea',
@@ -21,6 +22,8 @@ function htb_cta_form($form, $form_state) {
       t(
         'Tell us about a video or video series you\'d like to see recorded.'
       ),
+    '#cols' => 22,
+    '#required' => TRUE,
   );
   $form['timeline'] = array(
     '#type' => 'hidden',
@@ -55,11 +58,10 @@ function htb_cta_form_validate($form, &$form_state) {
 function htb_cta_form_submit($form, &$form_state) {
   $values = $form_state['values'];
   $node = new Node();
-  $node->type = 'contacts';
+  $node->type = 'vid_requests';
   $node->status = 0;
   $node->uid = 1;
-  $node->title = check_plain($values['email']);
-  $node->field_budget[LANGUAGE_NONE][0]['value'] = check_plain($values['budget']);
+  $node->title = check_plain($values['name']);
   $node->body[LANGUAGE_NONE][0]['value'] = check_plain($values['about']);
   $node->save();
 
