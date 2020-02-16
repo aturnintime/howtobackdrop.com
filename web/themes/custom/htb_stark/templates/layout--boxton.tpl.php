@@ -62,7 +62,12 @@
                   Developer Getting Started
                 </h2>
                 <div class="hp-block-content">
-                  Get up to speed on development tools, techniques, and jumpstart your dev skills!
+                  <p>
+                    Get up to speed on development tools, techniques, and jumpstart your dev skills!
+                  </p>
+                  <p>
+                    <a href="/book-page/vim-series">Vim Series</a>
+                  </p>
                 </div>
               </div>
             </div>
