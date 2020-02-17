@@ -1,0 +1,5 @@
+name = htb_bw
+description = Gather content for Backdrop Weekly Newsletter.
+backdrop = 1.x
+package = custom
+type = module

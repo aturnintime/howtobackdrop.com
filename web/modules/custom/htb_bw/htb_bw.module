@@ -1,0 +1,106 @@
+<?php
+/**
+ * @file
+ * Gather content for the Backdrop Weekly Newsletter.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function htb_bw_menu() {
+  $items = [];
+  $items['backdrop-weekly'] = [
+    '#title' => t('The Backdrop Weekly'),
+    'access callback' => TRUE,
+    'page callback' => ['backdrop_get_form'],
+    'page arguments' => ['htb_bw_req_form'], 
+  ];
+
+  return $items;
+}
+
+/**
+ *  Backdrop Weekly Request content form.
+ */
+function htb_bw_req_form($form, &$form_stete) {
+  $form = [];
+  $markup = <<< HTML
+    <h1>The Backdrop Weekly</h1>
+    <div class="bw-req-form-help">
+      Have a blog post, tutorial, or podcast that you would like 
+      included in the Backdrop Weekly newsletter?
+      <br /><br />
+      Tell us about it!
+    </div>
+HTML;
+  $form['help'] = [
+    '#type' => 'markup',
+    '#markup' => $markup,
+  ];
+  $form['name'] = [
+    '#title' => t('Your Name'),
+    '#type' => 'textfield',
+    '#size' => 22,
+    '#required' => TRUE,
+  ];
+  $form['email'] = [
+    '#title' => t('Your email address'),
+    '#type' => 'email',
+    '#size' => 22,
+    '#required' => TRUE,
+  ];
+  $form['description'] = [
+    '#title' => 'Description',
+    '#type' => 'textarea',
+    '#cols' => 22,
+    '#default_value' => "
+      Link: add://yourUrlHere.com\n
+      Description: A brief description of your content.
+    ",
+    '#required' => TRUE,
+  ];
+  $form['tp'] = [
+    '#type' => 'hidden',
+    '#value' => 'bee bop ba lou bop; shes my baby',
+  ];
+  $form['submit'] = [
+    '#type' => 'submit',
+    '#value' => t('Submit'),
+  ];
+  honeypot_add_form_protection(
+    $form,
+    $form_state,
+    ['honeypot', 'time_restriction']
+  );
+
+  return $form;
+}
+
+/**
+ * Valication for BW Req form.
+ */
+function htb_bw_req_form_validate($form, &$form_state) {
+  $values = $form_state['values'];
+  $bbbb = $values['tp'];
+  if ($bbbb !== 'bee bop ba lou bop; shes my baby') {
+    form_set_error('nope', 'No thank you.');
+  }
+}
+
+/**
+ * BW Req form submit callback.
+ */
+function htb_bw_req_form_submit($form, &$form_state) {
+  $values = $form_state['values'];
+  $node = new Node();
+  $node->type = 'bw_req';
+  $node->status = 0;
+  $node->uid = 1;
+  $node->title = check_plain($values['name']);
+  $body = check_plain($values['email'])
+    . "\n\n" . check_plain($values['description']; 
+  $node->body[0][LANGUAGE_NONE]['value'] = $body;
+  $node->save();
+
+  $form_state['redirect'] = 'backdrop-weekly-submit-thanks';
+}
