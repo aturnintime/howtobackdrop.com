@@ -38,24 +38,15 @@
   <div class="l-wrapper">
     <div class="hp-content">
       <div class="hp-big-container">
-        <div class="hp-all-the-things">
+        <div class="col-md-8 hp-all-the-things">
           <div class="hp-lil-container">
             <h1 class="hp-title">
-              How to Backdrop ~ Site building and development for Backdrop CMS!
+              How to Backdrop ~ Learn development tools and techniques for Backdrop CMS!
             </h1>
             <div class="write-up">
-              🚀 Jumpstart your Backdrop site builder and/or dev skills with easy to follow videos, courses, and trainings.🚀
+              🚀 Jumpstart your Backdrop development skills with easy to follow videos, courses, and trainings.🚀
             </div>
             <div class="hp-course-row">
-              <div
-                class="hp-course hp-block hp-sb-gs">
-                <h2 class="hp-block-title">
-                  Site Builder Getting Started
-                </h2>
-                <div class="hp-block-content">
-                  Jumpstart or update your site building skillset!
-                </div>
-              </div>
               <div
                 class="hp-course hp-block hp-dev-gs">
                 <h2 class="hp-block-title">
@@ -66,32 +57,41 @@
                     Get up to speed on development tools, techniques, and jumpstart your dev skills!
                   </p>
                   <p>
-                    <a href="/book-page/vim-series">Vim Series</a>
+                    <ul>
+                      <li>
+                        <a href="/book-page/vim-series">
+                          Vim Series
+                        </a>
+                      </li>
+                    </ul>
+                  </p>
+                  <p>
+                    Comming Soon
+                    <ul>
+                      <li>Local Development Environments</li>
+                      <li>Introduction to PHP</li>
+                    </ul>
                   </p>
                 </div>
               </div>
             </div>
             <div class="hp-course-row">
-              <div class="hp-course hp-block hp-sb-adv">
-                <h2 class="hp-block-title">
-                  Site Builder Advanced
-                </h2>
-                <div class="hp-block-content">
-
-                </div>
-              </div>
               <div class="hp-course hp-block hp-dev-adv">
                 <h2 class="hp-block-title">
                   Developer Advanced
                 </h2>
                 <div class="hp-block-content">
-
+                  <div>Comming Soon</div>
+                  <ul>
+                    <li>Drush series</li>
+                    <li>Backdrop Form API</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4 hp-right-col">
           <?php
             $cta = backdrop_get_form('htb_cta_form');
             print render($cta);
