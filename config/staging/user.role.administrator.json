@@ -131,6 +131,11 @@
         "delete any vid_requests content",
         "administer book outlines",
         "create new books",
-        "add content to books"
+        "add content to books",
+        "create bw_req content",
+        "edit own bw_req content",
+        "edit any bw_req content",
+        "delete own bw_req content",
+        "delete any bw_req content"
     ]
 }

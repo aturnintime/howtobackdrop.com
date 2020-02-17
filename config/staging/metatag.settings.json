@@ -20,5 +20,6 @@
     "metatag_enable_user": 1,
     "metatag_enable_node__vid": true,
     "metatag_enable_node__vid_requests": true,
-    "metatag_enable_node__book": true
+    "metatag_enable_node__book": true,
+    "metatag_enable_node__bw_req": true
 }
