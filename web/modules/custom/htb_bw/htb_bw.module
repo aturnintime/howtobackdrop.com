@@ -98,8 +98,8 @@ function htb_bw_req_form_submit($form, &$form_state) {
   $node->uid = 1;
   $node->title = check_plain($values['name']);
   $body = check_plain($values['email'])
-    . "\n\n" . check_plain($values['description']; 
-  $node->body[0][LANGUAGE_NONE]['value'] = $body;
+    . "\n\n" . check_plain($values['description']);
+  $node->body[LANGUAGE_NONE][0]['value'] = $body;
   $node->save();
 
   $form_state['redirect'] = 'backdrop-weekly-submit-thanks';
