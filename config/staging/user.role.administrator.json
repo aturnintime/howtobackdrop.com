@@ -136,6 +136,12 @@
         "edit own bw_req content",
         "edit any bw_req content",
         "delete own bw_req content",
-        "delete any bw_req content"
+        "delete any bw_req content",
+        "administer paragraphs bundles",
+        "create bw content",
+        "edit own bw content",
+        "edit any bw content",
+        "delete own bw content",
+        "delete any bw content"
     ]
 }

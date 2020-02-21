@@ -1,0 +1,46 @@
+{
+    "_config_name": "field.instance.paragraphs_item.bw_section.field_link_and_description",
+    "field_name": "field_link_and_description",
+    "entity_type": "paragraphs_item",
+    "bundle": "bw_section",
+    "label": "Link and Description",
+    "widget": {
+        "weight": "2",
+        "type": "paragraphs_embed",
+        "module": "paragraphs",
+        "active": 0,
+        "settings": []
+    },
+    "description": "",
+    "required": 0,
+    "deleted": 0,
+    "default_value": null,
+    "default_value_function": null,
+    "settings": {
+        "title": "Link w/ Description",
+        "title_multiple": "Paragraphs",
+        "default_edit_mode": "open",
+        "default_edit_mode_override": "1",
+        "add_mode": "select",
+        "allowed_bundles": {
+            "bw_section": -1,
+            "link_with_description": "link_with_description"
+        },
+        "bundle_weights": {
+            "bw_section": "2",
+            "link_with_description": "3"
+        },
+        "user_register_form": false
+    },
+    "display": {
+        "default": {
+            "label": "hidden",
+            "type": "paragraphs_view",
+            "settings": {
+                "view_mode": "full"
+            },
+            "module": "paragraphs",
+            "weight": 1
+        }
+    }
+}
