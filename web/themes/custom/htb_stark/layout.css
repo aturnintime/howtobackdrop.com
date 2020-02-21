@@ -176,6 +176,32 @@ ul.menu li a:hover {
 }
 /* vid pages end */
 
+/* bw pages */
+.paragraphs-item-bw-section {
+  margin: 1em;
+}
+.field-name-field-title {
+  font-size: 2.1em;
+  border-bottom: 1px solid grey;
+}
+.field-name-field-bw-link .field-items {
+  margin-top: 1em;
+}
+.field-item {
+  margin-top: 0.6em;
+}
+.field-item a {
+  font-size: 1.4em;
+  text-decoration: none;
+}
+.field-item p a {
+  font-size: 1em;
+}
+.field-item a:hover {
+  text-decoration: underline;
+}
+/* bw pages end */
+
 /* footer things */
 .l-footer {
   padding: 3rem;
