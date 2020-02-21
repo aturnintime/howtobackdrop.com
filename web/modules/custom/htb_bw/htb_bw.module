@@ -9,7 +9,7 @@
  */
 function htb_bw_menu() {
   $items = [];
-  $items['backdrop-weekly'] = [
+  $items['submit-to-the-backdrop-weekly'] = [
     '#title' => t('The Backdrop Weekly'),
     'access callback' => TRUE,
     'page callback' => ['backdrop_get_form'],
