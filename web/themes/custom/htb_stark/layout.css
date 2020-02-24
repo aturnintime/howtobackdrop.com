@@ -161,6 +161,9 @@ ul.menu li a:hover {
 .hp-right-col {
   padding-left: 1em;
 }
+.form-item-about label {
+  padding-bottom: 0.6em;
+}
 /* Homepage things end */
 
 /* vid pages */
@@ -177,6 +180,9 @@ ul.menu li a:hover {
 /* vid pages end */
 
 /* bw pages */
+#htb-bw-req-form {
+  margin-bottom: 2em;
+}
 .paragraphs-item-bw-section {
   margin: 1em;
 }
@@ -199,6 +205,9 @@ ul.menu li a:hover {
 }
 .field-item a:hover {
   text-decoration: underline;
+}
+.form-item-description label {
+  padding-bottom: 0.6em;
 }
 /* bw pages end */
 
