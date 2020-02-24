@@ -6,14 +6,9 @@
  * Stark theme itself has no styling, except just enough CSS to display the page
  * in a readable manner.
  */
-/*body {
-  margin: 0 10px;
+.l-wrapper {
+  min-height: 600px;
 }
-body > .layout {
-  max-width: 1200px;
-  margin: 0 auto;
-}*/
-
 table {
   width: 100%;
 }
@@ -178,6 +173,18 @@ ul.menu li a:hover {
   margin: 9px;
 }
 /* vid pages end */
+
+/* bw weekly list page */
+.views-field-title .field-content a {
+  font-size: 1.8em;
+  text-decoration: none;
+}
+.views-field-title .field-content a:hover {
+  color: #00a;
+  background-color: ccc;
+  text-decoration: underline;
+}
+/* bw weekly list page end */
 
 /* bw pages */
 #htb-bw-req-form {
