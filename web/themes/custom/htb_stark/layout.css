@@ -89,7 +89,7 @@ ul.menu li a {
   color: #eee;
   font-size: 1.2rem;
   text-decoration: none;
-  padding: 6px;
+  padding: 1rem;
 }
 .book-navigation ul.menu li a {
   color: blue;
@@ -97,12 +97,11 @@ ul.menu li a {
 ul.menu li a.active {
   background: #eee;
   color: #222;
-  padding: 6px;
 }
 ul.menu li a:hover {
   background: #ddd;
   color: #222;
-  padding: 6px;
+  padding: 1rem;
   text-decoration: underline;
 }
 /** menu end **/
@@ -155,7 +154,7 @@ ul.menu li a:hover {
   margin-top: 0;
   margin-bottom: 4px;
   padding: 1rem;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-weight: 499;
   background: #808088;
   color: #fff;
@@ -167,10 +166,10 @@ ul.menu li a:hover {
   padding: 2rem;
 }
 .hp-right-col {
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 .form-item-about label {
-  padding-bottom: 0.6em;
+  padding-bottom: 0.6rem;
 }
 /* Homepage things end */
 
@@ -189,7 +188,7 @@ ul.menu li a:hover {
 
 /* bw weekly list page */
 .views-field-title .field-content a {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 .views-field-title .field-content a:hover {
@@ -201,35 +200,35 @@ ul.menu li a:hover {
 
 /* bw pages */
 #htb-bw-req-form {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 .paragraphs-item-bw-section {
-  margin: 1em;
+  margin: 1rem;
 }
 .field-name-field-title {
-  font-size: 2.1em;
+  font-size: 2.1rem;
   border-bottom: 1px solid grey;
 }
 .field-name-field-bw-link .field-items {
-  margin-top: 1em;
+  margin-top: 1rem;
 }
 .field-item {
-  margin-top: 0.6em;
+  margin-top: 0.6rem;
 }
 .field-item a {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 .field-item p a {
-  font-size: 1em;
+  font-size: 1rem;
 }
 .field-item a:hover {
   text-decoration: underline;
 }
 .views-field .field-content::before {
-  margin-right: 0.2em;
+  margin-right: 0.2rem;
   content: "🚀";
-  font-size: 2em;
+  font-size: 2rem;
 }
 /* bw pages end */
 
