@@ -12,7 +12,20 @@
 table {
   width: 100%;
 }
-
+label {
+  padding-bottom: 0.6em;
+}
+.form-text,
+.form-email,
+.form-textarea {
+  padding: 0.4em;
+  background-color: #f3f3f3;
+}
+.form-submit {
+  background-color: #ccc;
+  color: #000;
+  padding: 0.5em;
+}
 /**
  * Responsive tables.
  */
@@ -213,8 +226,10 @@ ul.menu li a:hover {
 .field-item a:hover {
   text-decoration: underline;
 }
-.form-item-description label {
-  padding-bottom: 0.6em;
+.views-field .field-content::before {
+  margin-right: 0.2em;
+  content: "🚀";
+  font-size: 2em;
 }
 /* bw pages end */
 
