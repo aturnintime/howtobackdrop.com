@@ -196,6 +196,21 @@ ul.menu li a:hover {
   background-color: ccc;
   text-decoration: underline;
 }
+.views-field .field-content::before {
+  margin-right: 0.6rem;
+  content: "🚀";
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .views-field .field-content::before {
+    margin-right: 0.6rem;
+    content: "🚀";
+    font-size: 1.3rem;
+  }
+  .views-field-title .field-content a {
+    font-size: 1.2rem;
+  }
+}
 /* bw weekly list page end */
 
 /* bw pages */
@@ -227,11 +242,6 @@ ul.menu li a:hover {
 }
 .field-item a:hover {
   text-decoration: underline;
-}
-.views-field .field-content::before {
-  margin-right: 0.3rem;
-  content: "🚀";
-  font-size: 2rem;
 }
 /* bw pages end */
 
