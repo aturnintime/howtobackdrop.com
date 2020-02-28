@@ -226,7 +226,7 @@ ul.menu li a:hover {
   text-decoration: underline;
 }
 .views-field .field-content::before {
-  margin-right: 0.2rem;
+  margin-right: 0.3rem;
   content: "🚀";
   font-size: 2rem;
 }
