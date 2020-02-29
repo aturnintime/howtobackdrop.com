@@ -41,7 +41,7 @@
         <div class="col-md-8 hp-all-the-things">
           <div class="hp-lil-container">
             <h1 class="hp-title">
-              How to Backdrop ~ Learn development tools and techniques for Backdrop CMS!
+              Learn development tools and techniques for Backdrop CMS!
             </h1>
             <div class="write-up">
               🚀 Jumpstart your Backdrop development skills with easy to follow videos, courses, and trainings.🚀
