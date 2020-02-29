@@ -65,7 +65,7 @@
     "site_frontpage": "home",
     "site_name": "How to Backdrop",
     "site_logo_theme": 0,
-    "site_logo_path": "public://htbLogo.jpg",
+    "site_logo_path": "public://htbLogo-133x133.jpg",
     "site_mail": "no-reply@example.com",
     "site_slogan": "Site builder and developer how-tos",
     "theme_default": "htb_stark",
@@ -99,8 +99,8 @@
     ],
     "x_frame_options": "SAMEORIGIN",
     "site_logo_attributes": {
-        "width": 640,
-        "height": 640
+        "width": null,
+        "height": null
     },
     "site_logo_upload": "",
     "site_favicon_upload": ""
