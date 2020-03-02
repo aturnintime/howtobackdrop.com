@@ -233,7 +233,7 @@ ul.menu li a:hover {
 .field-item {
   margin-top: 0.6rem;
 }
-.field-item a {
+.field-item a.bw-link {
   font-size: 1.4rem;
   text-decoration: none;
 }
