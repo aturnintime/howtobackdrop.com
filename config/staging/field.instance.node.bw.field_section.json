@@ -41,6 +41,15 @@
             },
             "module": "paragraphs",
             "weight": 1
+        },
+        "rss": {
+            "label": "hidden",
+            "type": "paragraphs_view",
+            "settings": {
+                "view_mode": "full"
+            },
+            "module": "paragraphs",
+            "weight": 1
         }
     }
 }

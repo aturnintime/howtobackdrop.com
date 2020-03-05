@@ -34,6 +34,13 @@
             },
             "module": "text",
             "weight": 0
+        },
+        "rss": {
+            "label": "hidden",
+            "type": "text_default",
+            "settings": [],
+            "module": "text",
+            "weight": 0
         }
     },
     "description": "",

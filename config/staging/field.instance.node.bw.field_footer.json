@@ -33,6 +33,13 @@
             "settings": [],
             "module": "text",
             "weight": 2
+        },
+        "rss": {
+            "label": "hidden",
+            "type": "text_default",
+            "settings": [],
+            "module": "text",
+            "weight": 2
         }
     }
 }

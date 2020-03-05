@@ -106,6 +106,21 @@
                     }
                 }
             }
+        },
+        "feed_1": {
+            "display_title": "Feed",
+            "display_plugin": "feed",
+            "display_options": {
+                "query": {
+                    "type": "views_query",
+                    "options": []
+                },
+                "path": "the-backdrop-weekly/rss",
+                "displays": {
+                    "page": "page",
+                    "default": 0
+                }
+            }
         }
     }
 }
