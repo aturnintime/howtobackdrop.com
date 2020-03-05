@@ -187,6 +187,9 @@ ul.menu li a:hover {
 /* vid pages end */
 
 /* bw weekly list page */
+.view-the-backdrop-weekly .views-row {
+  margin: 0.5rem;
+}
 .views-field-title .field-content a {
   font-size: 1.8rem;
   text-decoration: none;
