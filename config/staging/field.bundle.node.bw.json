@@ -2,7 +2,11 @@
     "_config_name": "field.bundle.node.bw",
     "bundle": "bw",
     "entity_type": "node",
-    "view_modes": [],
+    "view_modes": {
+        "rss": {
+            "custom_settings": true
+        }
+    },
     "extra_fields": {
         "form": {
             "metatags": {
