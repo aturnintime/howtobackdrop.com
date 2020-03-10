@@ -230,6 +230,9 @@ ul.menu li a:hover {
   font-size: 2.1rem;
   border-bottom: 1px solid grey;
 }
+.field-type-paragraphs .field-name-field-bw-description {
+   padding-left: 2.5rem;
+}
 .field-name-field-bw-link .field-items {
   margin-top: 1rem;
 }
