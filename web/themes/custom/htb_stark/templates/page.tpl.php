@@ -50,6 +50,7 @@
     <script
       src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js">
     </script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <script
       data-ad-client="ca-pub-2171521293488166"
       async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
