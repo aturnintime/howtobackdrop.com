@@ -83,7 +83,22 @@
                         "order": "DESC"
                     }
                 },
-                "title": "The Backdrop Weekly"
+                "title": "The Backdrop Weekly",
+                "header": {
+                    "area": {
+                        "id": "area",
+                        "table": "views",
+                        "field": "area",
+                        "relationship": "none",
+                        "group_type": "group",
+                        "ui_name": "",
+                        "label": "",
+                        "empty": 0,
+                        "content": "<p>A weekly digest of all the latest Backdrop CMS news, announcements, releases, events, and meetings.</p>\r\n",
+                        "format": "filtered_html",
+                        "tokenize": 0
+                    }
+                }
             }
         },
         "page": {
