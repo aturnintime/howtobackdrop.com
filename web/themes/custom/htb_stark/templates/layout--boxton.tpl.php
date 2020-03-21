@@ -59,6 +59,11 @@
                   <p>
                     <ul>
                       <li>
+                        <a href="/book-page/introduction-php">
+                          Introduction to PHP
+                        </a>
+                      </li>
+                      <li>
                         <a href="/book-page/vim-series">
                           Vim Series
                         </a>
@@ -69,7 +74,6 @@
                     Comming Soon
                     <ul>
                       <li>Local Development Environments</li>
-                      <li>Introduction to PHP</li>
                     </ul>
                   </p>
                 </div>
