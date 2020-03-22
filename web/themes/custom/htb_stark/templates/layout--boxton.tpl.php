@@ -64,6 +64,11 @@
                         </a>
                       </li>
                       <li>
+                        <a href="/book-page/writing-backdrop-cms-modules">
+                          Writing Backdrop CMS Modules
+                        </a>
+                      </li>
+                      <li>
                         <a href="/book-page/vim-series">
                           Vim Series
                         </a>
@@ -74,6 +79,10 @@
                     Comming Soon
                     <ul>
                       <li>Local Development Environments</li>
+                      <li>Setting up a Backdrop Project</li>
+                      <li>Introduction to Git</li>
+                      <li>Deployment Workflows</li>
+                      <li>Using Drush</li>
                     </ul>
                   </p>
                 </div>
