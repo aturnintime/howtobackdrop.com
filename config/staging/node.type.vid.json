@@ -38,11 +38,12 @@
         "revision_enabled": 1,
         "revision_default": 0,
         "node_preview": "1",
-        "node_submitted": 1,
+        "node_submitted": 0,
         "node_user_picture": 1,
         "hidden_path": 0,
         "language": 0,
-        "node_permissions": true
+        "node_permissions": true,
+        "menu_default": 0
     },
     "orig_type": "vid"
 }
