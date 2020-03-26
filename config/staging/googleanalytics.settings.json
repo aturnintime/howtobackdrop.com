@@ -6,8 +6,10 @@
     "cross_domains": "",
     "visibility_pages": 0,
     "pages": "admin\r\nadmin/*\r\nbatch\r\nnode/add*\r\nnode/*/*\r\nuser/*/*",
-    "visibility_roles": 0,
-    "roles": [],
+    "visibility_roles": 1,
+    "roles": [
+        "administrator"
+    ],
     "custom": "0",
     "trackuserid": false,
     "trackoutbound": true,
