@@ -67,7 +67,7 @@
     "site_logo_theme": 0,
     "site_logo_path": "public://htbLogo-133x133.jpg",
     "site_mail": "no-reply@example.com",
-    "site_slogan": "Site builder and developer how-tos",
+    "site_slogan": "Developer how-tos",
     "theme_default": "htb_stark",
     "theme_debug": 0,
     "user_admin_role": "administrator",
