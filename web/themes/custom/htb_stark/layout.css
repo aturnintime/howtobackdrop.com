@@ -9,6 +9,9 @@
 .l-wrapper {
   min-height: 600px;
 }
+.l-wrapper div {
+  line-height: 1.6rem;
+}
 table {
   width: 100%;
 }
