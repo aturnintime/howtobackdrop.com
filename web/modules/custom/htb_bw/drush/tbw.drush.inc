@@ -45,7 +45,7 @@ function htb_bw_tbw() {
   }
   else {
     $error = drush_chalk('Error', '31m'); 
-    drush_print_r(\n\t"$error: Something went wrong creating the node.\n");
+    drush_print_r("\n\t$error: Something went wrong creating the node.\n");
   }
 }
 
