@@ -39,18 +39,9 @@ function htb_bw_tbw() {
   $tbw->save();
 
   if ($tbw) {
-    $success = drush_chalk('Success', '32m');
-    $title = drush_chalk($tbw->title, '1m');
-    drush_print_r("\n\t$success: Created $title.\n");
+    drush_print_r("\n\t\033[32mSuccess\033[0m: Created \033[1m$tbw->title\033[0m.\n");
   }
   else {
-    $error = drush_chalk('Error', '31m'); 
-    drush_print_r("\n\t$error: Something went wrong creating the node.\n");
+    drush_print_r("\n\t\033[31mError\033[0m: Something went wrong creating the node.\n");
   }
-}
-
-function drush_chalk(string $output, string $color) {
-  $output = "\033[$color$output\033[0m";
-
-  return $output;
 }

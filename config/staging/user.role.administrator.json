@@ -142,6 +142,9 @@
         "edit own bw content",
         "edit any bw content",
         "delete own bw content",
-        "delete any bw content"
+        "delete any bw content",
+        "access devel information",
+        "execute php code",
+        "switch users"
     ]
 }
