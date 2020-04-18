@@ -38,10 +38,39 @@ function htb_bw_tbw() {
   $tbw->uid = 1;
   $tbw->save();
 
+  htb_bw_create_paragraph_sections($tbw->nid);
+
   if ($tbw) {
     drush_print_r("\n\t\033[32mSuccess\033[0m: Created \033[1m$tbw->title\033[0m.\n");
   }
   else {
     drush_print_r("\n\t\033[31mError\033[0m: Something went wrong creating the node.\n");
+  }
+}
+
+/**
+ * Create the sections of the tbw template.
+ *
+ * @param int $nid
+ *   The nid to associate the paragraph with.
+ */
+function htb_bw_create_paragraph_sections($nid) {
+  $sections = array(
+    'news' => 'News',
+    'articles' => 'Articles and Tutorials',
+    'releases' => 'Releases',
+    'events' => 'Events',
+    'meetings' => 'Meetings',
+  );
+  $n = node_load($nid);
+  foreach($sections as $key => $section) {
+    $p = entity_create(
+      'paragraphs_item',
+      array('bundle' => 'bw_section', 'field_name' => 'field_section')
+    );
+    $p->is_new = TRUE;
+    $p->setHostEntity('node', $n);
+    $p->field_title[LANGUAGE_NONE][0]['value'] = $section;
+    entity_plus_save('paragraphs_item', $p);
   }
 }
