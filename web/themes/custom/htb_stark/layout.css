@@ -131,18 +131,14 @@ ul.menu li a:hover {
   color: #111;
   border-radius: 10px;
   font-size: 1.1rem;
-
 }
 .hp-big-container {
   display: flex;
   flex-wrap: wrap;
 }
-.hp-big-container :1st-child {
-}
-.hp-big-container :2nd-child {
-  margin: auto;
-}
 .hp-course-row {
+  display: flex;
+  fex-wrap: wrap;
   margin-bottom: 2rem;
 }
 .hp-lil-container {
@@ -156,6 +152,27 @@ ul.menu li a:hover {
   border: 2px solid 111;
   min-height: 400px;
   box-shadow: 0 5px 15px 0 #666;
+  width: 48%;
+  justify-content: space-between;
+}
+@media only screen and (max-device-width: 1024px) {
+  .hp-big-container {
+    display: block;
+  }
+  .hp-course-row {
+    display: block;
+    width: 100%;
+  }
+  .hp-block {
+    display: block;
+    width: 100%;
+  }
+  .hp-course {
+    margin: 0 1rem 1rem 0;
+  }
+  .hp-lil-container {
+    margin-left: 0;
+  }
 }
 .hp-block-title {
   margin-top: 0;

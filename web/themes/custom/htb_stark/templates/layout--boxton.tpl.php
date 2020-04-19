@@ -40,9 +40,6 @@
       <div class="hp-big-container">
         <div class="col-md-8 hp-all-the-things">
           <div class="hp-lil-container">
-            <h1 class="hp-title">
-              Learn development tools and techniques for Backdrop CMS!
-            </h1>
             <div class="write-up">
               🚀 Jumpstart your Backdrop development skills with easy to follow videos, courses, and trainings.🚀
             </div>
@@ -50,11 +47,11 @@
               <div
                 class="hp-course hp-block hp-dev-gs">
                 <h2 class="hp-block-title">
-                  Developer Getting Started
+                  Introduction to PHP
                 </h2>
                 <div class="hp-block-content">
                   <p>
-                    Get up to speed on development tools, techniques, and jumpstart your dev skills!
+                    Having a strong foundation in PHP and html will give you the tools you need to develop Backdrop CMS websites.
                   </p>
                   <p>
                     <ul>
@@ -64,26 +61,44 @@
                         </a>
                       </li>
                       <li>
-                        <a href="/book-page/writing-backdrop-cms-modules">
-                          Writing Backdrop CMS Modules
+                        <a href="/vid/php-hello-world">
+                          PHP: Hello World
                         </a>
                       </li>
                       <li>
-                        <a href="/book-page/vim-series">
-                          Vim Series
+                        <a href="/vid/php-forms-and-functions">
+                          PHP: Forms and Functions
                         </a>
+                      </li>
+                      <li>
+                        <a href="/vid/php-control-structures">
+                          PHP: Control Structures
+                        </a> (work in progress)
                       </li>
                     </ul>
                   </p>
+                </div>
+              </div>
+              <div
+                class="hp-course hp-block hp-dev-gs">
+                <h2 class="hp-block-title">
+                  Writing Backdrop CMS Modules
+                </h2>
+                <div class="hp-block-content">
                   <p>
-                    Comming Soon
-                    <ul>
-                      <li>Local Development Environments</li>
-                      <li>Setting up a Backdrop Project</li>
-                      <li>Introduction to Git</li>
-                      <li>Deployment Workflows</li>
-                      <li>Using Drush</li>
-                    </ul>
+                    Sometimes there is not "a module for that"; in these cases where your site needs bespoke functionality we write our own custom module.
+                  </p>
+                  <p>
+                    <li>
+                      <a href="/book-page/writing-backdrop-cms-modules">
+                        Writing Backdrop CMS Modules
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/vid/anatomy-module">
+                        Anaotomy of a Module
+                      </a>
+                    </li>
                   </p>
                 </div>
               </div>
@@ -91,14 +106,56 @@
             <div class="hp-course-row">
               <div class="hp-course hp-block hp-dev-adv">
                 <h2 class="hp-block-title">
-                  Developer Advanced
+                  Vim Series
                 </h2>
                 <div class="hp-block-content">
-                  <div>Comming Soon</div>
+                  <p>
+                    There are a lot of great choices out there for text editors and IDEs and
+                    everyone has their favorite. My favorite is <span class="code">vim</span>.
+                  </p>
                   <ul>
-                    <li>Drush series</li>
-                    <li>Backdrop Form API</li>
+                    <li>
+                      <a href="/book-page/vim-series">
+                        Vim Series
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/vid/vim-gitfugitive">
+                        Vim + GitFugitive
+                      </a>
+                    </li>
                   </ul>
+                </div>
+              </div>
+              <div class="hp-course hp-block hp-dev-adv">
+                <h2 class="hp-block-title">
+                  Testing Backdrop CMS
+                </h2>
+                <div class="hp-block-content">
+                  <p>
+                    This is an advanced series in which we learn how to write tests for our core, contrib, or custom modules.
+                  </p>
+                  <p>
+                    <ul>
+                      <li>
+                        <a href="/book-page/testing-backdrop-cms">
+                          Writing Tests for Backdrop CMS
+                      </li>
+                      <li>
+                        <a href="/vid/anatomy-tests">
+                          Anatomy of Tests
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/vid/enabling-and-running-tests-simpletest-module">
+                          Enabling and Running tests with Simpletest module
+                        </a>
+                      </li>
+                      <li>
+                        Writing Your First Test (comming soon)
+                      </li>
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
