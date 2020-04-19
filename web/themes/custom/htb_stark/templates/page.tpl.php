@@ -45,8 +45,6 @@
     <title><?php print $head_title; ?></title>
     <?php print backdrop_get_css(); ?>
     <?php print backdrop_get_js(); ?>
-    <link rel="stylesheet"
-      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
     <script
       src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js">
     </script>

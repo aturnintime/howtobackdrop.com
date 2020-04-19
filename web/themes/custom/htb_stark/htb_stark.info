@@ -4,3 +4,4 @@ version = BACKDROP_VERSION
 type = theme
 backdrop = 1.x
 stylesheets[all][] = layout.css
+stylesheets[all][] = dracula.css
