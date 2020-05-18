@@ -20,45 +20,52 @@
  * - $menu: The menu for the header (if any), as an HTML string.
  */
 ?>
-
-<?php if ($site_name || $site_slogan || $logo): ?>
-<div class="header-identity-wrapper">
-  <?php if ($site_name || $logo): ?>
-  <div class="header-site-name-wrapper">
-    <div class="hsnw-flex-child">
-      <a
-        href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"
-        class="header-site-name-link" rel="home">
-        <?php if ($logo): ?>
-        <div class="<?php print implode(' ', $logo_wrapper_classes); ?>">
-          <img
-            src="<?php print $logo; ?>"
-            alt="<?php print t('Home'); ?>"
-            class="header-logo"
-            <?php print backdrop_attributes($logo_attributes); ?>
-          />
-        </div>
-      </a>
-    </div>
-    <div class="hsnw-flex-child">
-      <a
-        href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"
-        class="header-site-name-link" rel="home">
-        <?php endif; ?>
-        <?php if ($site_name): ?>
-            <strong><?php print $site_name; ?></strong>
-        <?php endif; ?>
-      </a>
-    </div>
-    <?php endif; ?>
-    <div class="hsnw-flex-child">
-      <?php if ($site_slogan): ?>
-          <div class="header-site-slogan"><?php print $site_slogan; ?></div>
+<div class="l-header-inner container container-fluid">
+  <?php if ($site_name || $site_slogan || $logo): ?>
+  <div class="header-identity-wrapper">
+    <?php if ($site_name || $logo): ?>
+    <div class="header-site-name-wrapper">
+      <div class="hsnw-flex-child">
+        <a
+          href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"
+          class="header-site-name-link" rel="home">
+          <?php if ($logo): ?>
+          <div class="<?php print implode(' ', $logo_wrapper_classes); ?>">
+            <img
+              src="<?php print $logo; ?>"
+              alt="<?php print t('Home'); ?>"
+              class="header-logo"
+              <?php print backdrop_attributes($logo_attributes); ?>
+            />
+          </div>
+        </a>
+      </div>
+      <div class="hsnw-flex-child site-name">
+        <a
+          href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"
+          class="header-site-name-link" rel="home">
+          <?php endif; ?>
+          <?php if ($site_name): ?>
+              <strong><?php print $site_name; ?></strong>
+          <?php endif; ?>
+        </a>
+      </div>
       <?php endif; ?>
+      <div class="hsnw-flex-child">
+        <?php if ($site_slogan): ?>
+            <div class="header-site-slogan"><?php print $site_slogan; ?></div>
+        <?php endif; ?>
+      </div>
+      <div class="hsnw-flex-child">
+        <?php
+          $block = module_invoke('block', 'block_view', 'social_header');
+          print render($block['content']);
+        ?>
+      </div>
     </div>
   </div>
+  <?php endif; ?>
 </div>
-<?php endif; ?>
 
 <?php if ($menu): ?>
     <nav class="navbar navbar-expand-lg navbar-light">

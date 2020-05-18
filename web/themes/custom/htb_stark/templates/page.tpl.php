@@ -48,6 +48,9 @@
     <script
       src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js">
     </script>
+    <script
+      src="https://kit.fontawesome.com/df881ea9b9.js" crossorigin="anonymous">
+    </script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script
       data-ad-client="ca-pub-2171521293488166"

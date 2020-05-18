@@ -6,6 +6,7 @@ config:
   database: mariadb:10.3
   php: 7.3
   backdrush: 1.x-1.x
+  xdebug: true
 
 env_file:
   - .env
