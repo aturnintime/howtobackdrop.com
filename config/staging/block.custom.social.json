@@ -1,0 +1,12 @@
+{
+    "_config_name": "block.custom.social",
+    "delta": "social",
+    "info": "social-footer",
+    "title": "",
+    "description": "",
+    "body": {
+        "value": "<div class=\"footer-social\">\r\n<div class=\"footer-youtube\">\r\n<a href=\"https://www.youtube.com/channel/UCFFGranMiaOjDxqexxELgTw??sub_confirmation=1\">\r\n  <i class=\"fab fa-youtube fa-5x\"></i>\r\n</a>\r\n</div>\r\n<div class=\"footer-twitter\">\r\n<a href=\"https://twitter.com/howtobackdrop\">\r\n  <i class=\"fab fa-twitter fa-5x\"></i>\r\n</a>\r\n</div>\r\n</div>",
+        "format": "full_html"
+    },
+    "default_langcode": "und"
+}
