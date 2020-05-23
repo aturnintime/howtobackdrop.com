@@ -1,0 +1,17 @@
+{
+    "_config_name": "field.bundle.node.post",
+    "bundle": "post",
+    "entity_type": "node",
+    "view_modes": [],
+    "extra_fields": {
+        "form": {
+            "metatags": {
+                "weight": "6"
+            },
+            "title": {
+                "weight": "0"
+            }
+        },
+        "display": []
+    }
+}

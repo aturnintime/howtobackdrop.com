@@ -24,9 +24,10 @@
         "type": "image_image",
         "settings": {
             "progress_indicator": "throbber",
-            "preview_image_style": "thumbnail"
+            "preview_image_style": "thumbnail",
+            "browser_view": "image_library"
         },
-        "weight": -1,
+        "weight": "5",
         "module": "image"
     },
     "display": {

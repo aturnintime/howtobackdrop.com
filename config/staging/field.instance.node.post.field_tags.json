@@ -7,7 +7,7 @@
     "description": "Enter a comma-separated list of words to describe your content.",
     "widget": {
         "type": "taxonomy_autocomplete",
-        "weight": -4,
+        "weight": "4",
         "settings": {
             "size": 60,
             "autocomplete_path": "taxonomy/autocomplete",
