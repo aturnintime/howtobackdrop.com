@@ -6,4 +6,5 @@ config/active
 *.gz
 *.sql.gz
 htb-outline.md
+config/staging/devel.*
 tst.php
