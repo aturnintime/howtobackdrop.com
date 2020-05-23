@@ -44,9 +44,11 @@
             <div class="hp-course-row">
               <div
                 class="hp-course hp-block hp-dev-gs">
-                <h2 class="hp-block-title">
-                  Introduction to PHP
-                </h2>
+                <a href="/book-page/introduction-php">
+                  <h2 class="hp-block-title">
+                    Introduction to PHP
+                  </h2>
+                </a>
                 <div class="hp-block-content">
                   <p>
                     Having a strong foundation in PHP and html will give you the tools you need to develop Backdrop CMS websites.
@@ -79,9 +81,11 @@
               </div>
               <div
                 class="hp-course hp-block hp-dev-gs">
-                <h2 class="hp-block-title">
-                  Writing Backdrop CMS Modules
-                </h2>
+                <a href="/book-page/writing-backdrop-cms-modules">
+                  <h2 class="hp-block-title">
+                    Writing Backdrop CMS Modules
+                  </h2>
+                </a>
                 <div class="hp-block-content">
                   <p>
                     Sometimes there is not "a module for that"; in these cases where your site needs bespoke functionality we write our own custom module.
@@ -103,9 +107,11 @@
             </div>
             <div class="hp-course-row">
               <div class="hp-course hp-block hp-dev-adv">
-                <h2 class="hp-block-title">
-                  Vim Series
-                </h2>
+                <a href="/book-page/vim-series">
+                  <h2 class="hp-block-title">
+                    Vim Series
+                  </h2>
+                </a>
                 <div class="hp-block-content">
                   <p>
                     There are a lot of great choices out there for text editors and IDEs and
@@ -126,9 +132,11 @@
                 </div>
               </div>
               <div class="hp-course hp-block hp-dev-adv">
-                <h2 class="hp-block-title">
-                  Testing Backdrop CMS
-                </h2>
+                <a href="/book-page/testing-backdrop-cms">
+                  <h2 class="hp-block-title">
+                    Testing Backdrop CMS
+                  </h2>
+                </a>
                 <div class="hp-block-content">
                   <p>
                     This is an advanced series in which we learn how to write tests for our core, contrib, or custom modules.
