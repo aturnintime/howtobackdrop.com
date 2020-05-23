@@ -29,13 +29,13 @@
         "default": {
             "label": "hidden",
             "type": "video_embed_field",
+            "weight": "2",
             "settings": {
                 "video_style": "normal",
                 "description": 1,
                 "description_position": "bottom"
             },
-            "module": "video_embed_field",
-            "weight": 12
+            "module": "video_embed_field"
         }
     }
 }

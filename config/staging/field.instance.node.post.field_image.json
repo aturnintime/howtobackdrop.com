@@ -34,12 +34,12 @@
         "default": {
             "label": "hidden",
             "type": "image",
+            "weight": "0",
             "settings": {
                 "image_style": "large",
                 "image_link": "",
                 "image_float": ""
             },
-            "weight": -1,
             "module": "image"
         },
         "teaser": {

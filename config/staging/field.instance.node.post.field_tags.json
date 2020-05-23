@@ -17,9 +17,9 @@
     },
     "display": {
         "default": {
-            "type": "taxonomy_term_reference_link",
-            "weight": 10,
             "label": "hidden",
+            "type": "taxonomy_term_reference_link",
+            "weight": "4",
             "settings": [],
             "module": "taxonomy"
         },
