@@ -285,6 +285,13 @@ ul.menu li a:hover {
 }
 /* bw pages end */
 
+/* blog pages */
+.field-name-field-post-video,
+.field-name-field-image {
+  text-align: center;
+}
+/* end blog pages */
+
 /* footer things */
 .l-footer {
   color: #eee;
