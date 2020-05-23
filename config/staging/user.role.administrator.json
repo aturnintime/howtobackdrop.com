@@ -145,6 +145,7 @@
         "delete any bw content",
         "access devel information",
         "execute php code",
-        "switch users"
+        "switch users",
+        "administer flexible templates"
     ]
 }
