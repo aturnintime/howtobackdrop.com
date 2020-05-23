@@ -74,3 +74,10 @@ function htb_bw_create_paragraph_sections($nid) {
     entity_plus_save('paragraphs_item', $p);
   }
 }
+
+/**
+ * Create the meetings link with descriptions.
+ */
+function htb_bw_create_meetings_link_description($pid) {
+
+}
