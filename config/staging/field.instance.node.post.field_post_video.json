@@ -3,7 +3,7 @@
     "field_name": "field_post_video",
     "entity_type": "node",
     "bundle": "post",
-    "label": "video",
+    "label": "Prefer video?",
     "widget": {
         "weight": "2",
         "type": "video_embed_field_video",
@@ -27,7 +27,7 @@
     },
     "display": {
         "default": {
-            "label": "hidden",
+            "label": "above",
             "type": "video_embed_field",
             "weight": "2",
             "settings": {

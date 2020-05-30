@@ -5,17 +5,18 @@
     "bundle": "bw",
     "label": "Body",
     "widget": {
-        "type": "text_textarea_with_summary",
-        "settings": {
-            "rows": 10,
-            "summary_rows": 5
-        },
         "weight": "41",
-        "module": "text"
+        "type": "text_textarea_with_summary",
+        "module": "text",
+        "active": 1,
+        "settings": {
+            "rows": "10",
+            "summary_rows": 5
+        }
     },
     "settings": {
-        "display_summary": true,
-        "text_processing": 1,
+        "text_processing": "1",
+        "display_summary": 1,
         "user_register_form": false
     },
     "display": {
@@ -46,6 +47,12 @@
     "description": "",
     "required": 0,
     "deleted": 0,
-    "default_value": null,
+    "default_value": [
+        {
+            "summary": "",
+            "value": "<p>Follow us on <a href=\"https://www.youtube.com/channel/UCFFGranMiaOjDxqexxELgTw??sub_confirmation=1\">YouTube</a> and twitter <a href=\"https://twitter.com/howtobackdrop\">@howtobackdrop</a></p>\r\n",
+            "format": "filtered_html"
+        }
+    ],
     "default_value_function": null
 }

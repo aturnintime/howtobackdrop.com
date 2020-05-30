@@ -18,7 +18,8 @@
     "deleted": 0,
     "default_value": [
         {
-            "value": "Follow us on twitter <a href=\"https://twitter.com/howtobackdrop\">@howtobackdrop</a>"
+            "value": "<p>Follow us on <a href=\"https://www.youtube.com/channel/UCFFGranMiaOjDxqexxELgTw??sub_confirmation=1\">YouTube</a> and twitter <a href=\"https://twitter.com/howtobackdrop\">@howtobackdrop</a></p>\r\n",
+            "format": "filtered_html"
         }
     ],
     "default_value_function": null,
